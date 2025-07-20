@@ -114,7 +114,7 @@ Error generating stack: `+e.message+`
   left: 30%;
   z-index: 10;
   rotate: -5deg;
-`,Pv=({text:i,children:r})=>{const[o,s]=Fu.useState(!1),g=T=>{T.preventDefault(),navigator.clipboard.writeText(i).then(()=>s(!0)).then(()=>setTimeout(()=>s(!1),2e3))};return j.jsxs(Fv,{onClick:g,children:[r,j.jsx(Iv,{show:o,children:"Copied!"})]})};function tm(){return j.jsx(Pu,{as:"footer",children:j.jsxs("p",{children:["Reach out on"," ",j.jsx(Pv,{text:"p6eac.h@gmail.com",children:j.jsx(Ol,{href:"mailto:p6eac.h@gmail.com",children:"Gmail"})})," ","or"," ",j.jsx(Ol,{href:"https://www.linkedin.com/in/tamta-lomidze-p6each/",children:"LinkedIn"}),". Explore me on ",j.jsx(Ol,{href:"https://github.com/peac-h",children:"Github"})," and"," ",j.jsx(Ol,{href:"/tl_cv.pdf",children:"ReadCV"}),"."]})})}const lm=Gv`
+`,Pv=({text:i,children:r})=>{const[o,s]=Fu.useState(!1),g=T=>{T.preventDefault(),navigator.clipboard.writeText(i).then(()=>s(!0)).then(()=>setTimeout(()=>s(!1),2e3))};return j.jsxs(Fv,{onClick:g,children:[r,j.jsx(Iv,{show:o,children:"Copied!"})]})};function tm(){return j.jsx(Pu,{as:"footer",children:j.jsxs("p",{children:["Reach out on"," ",j.jsx(Pv,{text:"p6eac.h@gmail.com",children:j.jsx(Ol,{href:"mailto:p6eac.h@gmail.com",children:"Gmail"})})," ","or"," ",j.jsx(Ol,{href:"https://www.linkedin.com/in/tamta-lomidze-p6each/",children:"LinkedIn"}),". Explore me on ",j.jsx(Ol,{href:"https://github.com/peac-h",children:"Github"})," and"," ",j.jsx(Ol,{href:"/folio-25/tl_cv.pdf",children:"ReadCV"}),"."]})})}const lm=Gv`
     :root {
         --col-main: #171717;
         --col-main-tint: #2c2c2c;
